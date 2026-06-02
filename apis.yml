@@ -1,0 +1,39 @@
+aid: notch
+name: Notch
+description: >-
+  Notch, formerly OrderEZE/Notch, brings the restaurant supply chain online,
+  digitizing the paper-driven process of wholesale food ordering and order
+  taking between restaurants and their distributors. The platform has expanded
+  into accounts receivable and accounts payable automation, handling payment
+  collection, invoice management, reconciliation, and payment processing for
+  food and beverage suppliers and buyers. Notch offers key integrations with
+  accounting and ERP systems to keep ordering and finance workflows in sync.
+  Notch does not appear to publish a public developer API; integrations are
+  delivered through its accounting and ERP connectors rather than a documented
+  developer portal.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Restaurant
+  - Ordering
+  - Suppliers
+  - Accounts Payable
+  - Accounts Receivable
+  - Payments
+  - ERP Integration
+url: https://raw.githubusercontent.com/api-evangelist/notch/refs/heads/main/apis.yml
+created: '2026-06-02'
+modified: '2026-06-02'
+specificationVersion: '0.19'
+common:
+  - type: Website
+    url: https://www.notch.financial/
+  - type: Support
+    url: https://www.notch.financial/company/contact
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/notchordering
+  - type: X
+    url: https://twitter.com/notch_hq
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

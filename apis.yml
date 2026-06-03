@@ -1,39 +1,90 @@
 aid: notch
 name: Notch
 description: >-
-  Notch, formerly OrderEZE/Notch, brings the restaurant supply chain online,
+  Notch (formerly OrderEZE/ChefHero) brings the restaurant supply chain online,
   digitizing the paper-driven process of wholesale food ordering and order
-  taking between restaurants and their distributors. The platform has expanded
-  into accounts receivable and accounts payable automation, handling payment
-  collection, invoice management, reconciliation, and payment processing for
-  food and beverage suppliers and buyers. Notch offers key integrations with
-  accounting and ERP systems to keep ordering and finance workflows in sync.
-  Notch does not appear to publish a public developer API; integrations are
-  delivered through its accounting and ERP connectors rather than a documented
-  developer portal.
+  taking between restaurants and their distributors. Founded in 2015 and
+  headquartered in Toronto, the platform spans four product surfaces — Order
+  Manager and Invoice Manager for buyers, AP Manager for restaurant accounts
+  payable, and AR Manager for distributor accounts receivable — handling order
+  placement, invoice management, reconciliation, payment collection, and payment
+  processing for food and beverage suppliers and buyers. Notch keeps ordering
+  and finance workflows in sync through one-way and two-way connectors to
+  accounting and ERP systems including QuickBooks Online, QuickBooks Desktop,
+  NetSuite, Xero, and Microsoft Dynamics 365, plus CSV import/export. Notch does
+  not publish a public developer API or developer portal; its accounting/ERP
+  connectivity is delivered through its own connectors and the third-party
+  Rutter unified accounting API, so Notch operates as an API consumer rather
+  than an API provider. (This profile covers Notch the restaurant-to-supplier
+  ordering and AR/AP automation company at notch.financial, and is unrelated to
+  "Notch Pay," the African payments company at developer.notchpay.co.)
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Restaurant
+  - Foodservice
   - Ordering
+  - Supply Chain
   - Suppliers
+  - Distributors
   - Accounts Payable
   - Accounts Receivable
+  - Invoicing
   - Payments
+  - Reconciliation
   - ERP Integration
+  - Accounting
 url: https://raw.githubusercontent.com/api-evangelist/notch/refs/heads/main/apis.yml
 created: '2026-06-02'
 modified: '2026-06-02'
 specificationVersion: '0.19'
+x-type: company
 common:
   - type: Website
     url: https://www.notch.financial/
+  - type: Application
+    title: Notch Web App
+    url: https://app.notch.financial/
+  - type: Integrations
+    url: https://www.notch.financial/integrations
   - type: Support
     url: https://www.notch.financial/company/contact
+  - type: Application
+    title: Notch Financial (iOS App Store)
+    url: https://apps.apple.com/ca/app/notch-financial/id1067130489
   - type: LinkedIn
     url: https://www.linkedin.com/company/notchordering
   - type: X
     url: https://twitter.com/notch_hq
+features:
+  - name: Order Manager
+    description: Lets restaurants and buyers place and track wholesale food orders with their distributors, price compare, and shop across a large catalog of SKUs from a mobile app or web browser.
+  - name: Invoice Manager
+    description: Centralizes incoming supplier invoices, digitizing the paper-driven invoicing process so buyers can review, manage, and approve invoices in one place.
+  - name: AP Manager
+    description: Accounts payable automation for restaurants — schedules and processes payments to suppliers and keeps payment data in sync with the accounting system.
+  - name: AR Manager
+    description: Accounts receivable automation for distributors — generates and sends invoices on a recurring schedule, collects payments, and reconciles them against the accounting system.
+  - name: Payment Processing and Collection
+    description: Handles payment collection and processing between buyers and suppliers, automatically matching payments to the correct invoices.
+  - name: Accounting and ERP Sync
+    description: One-way or two-way syncing that pushes bills paid, outstanding invoices, and collections data into the customer's accounting or ERP system in real time.
+useCases:
+  - name: Digitize Wholesale Food Ordering
+    description: Move restaurant-to-distributor ordering off paper, phone, and fax onto a single mobile and web platform with order tracking and real-time catalog data.
+  - name: Automate Distributor Accounts Receivable
+    description: Food and beverage distributors automatically generate invoices, collect payments, and reconcile them against their ERP, reducing days sales outstanding.
+  - name: Automate Restaurant Accounts Payable
+    description: Restaurants consolidate supplier invoices and automate scheduled payments while keeping their accounting system continuously reconciled.
+  - name: Keep Finance Systems in Sync
+    description: Eliminate manual re-keying between ordering/invoicing and accounting by syncing orders, invoices, and payments to QuickBooks, NetSuite, Xero, or Dynamics 365.
+integrations:
+  - name: QuickBooks Online
+  - name: QuickBooks Desktop
+  - name: NetSuite
+  - name: Xero
+  - name: Microsoft Dynamics 365
+  - name: Rutter
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

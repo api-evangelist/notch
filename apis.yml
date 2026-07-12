@@ -40,6 +40,10 @@ modified: '2026-06-02'
 specificationVersion: '0.19'
 x-type: company
 common:
+  - type: DomainSecurity
+    url: security/notch-domain-security.yml
+  - url: https://www.notch.financial/blog
+    type: Blog
   - type: Website
     url: https://www.notch.financial/
   - type: Application

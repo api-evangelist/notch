@@ -33,6 +33,20 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/notch.png
 tags:
   - Restaurant
+  - Food Service
+  - Ordering
+  - Supply Chain
+  - Suppliers
+  - Distributors
+  - Accounts Payable
+  - Accounts Receivable
+  - Invoicing
+  - Payments
+  - Reconciliation
+  - ERP Integration
+  - Accounting
+tags_raw:
+  - Restaurant
   - Foodservice
   - Ordering
   - Supply Chain
